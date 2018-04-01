@@ -1,0 +1,19 @@
+#Initial draft of random contact generator
+family = ["person_1", "person_2", "person_3", "person_4", "person_5"]
+friends = ["person_1", "person_2", "person_3", "person_4", "person_5"]
+coworkers = ["person_1", "person_2", "person_3", "person_4", "person_5"]
+#This program will also feature more niche groups of individuals, such as "Book Club", or "Accounting 101".
+book_club = ["person_1", "person_2", "person_3", "person_4", "person_5"]
+sports_team = ["person_1", "person_2", "person_3", "person_4", "person_5"]
+volunteering_group = ["person_1", "person_2", "person_3", "person_4", "person_5"]
+"""This initial version of the program will print:
+*Two individuals from the family group
+*Two individuals from the friends group
+*One individual from the coworker group
+*And one individual from the niche groups (i.e. "book_club", "sports_team", "volunteering_group")"""
+print(random.choice(family*2))
+print(random.choice(friends*2))
+print(random.choice(coworkers))
+print(random.choice(book_club))
+print(random.choice(sports_team))
+print(random.choice(volunteering_group))
